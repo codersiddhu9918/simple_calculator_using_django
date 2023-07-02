@@ -1,0 +1,65 @@
+body {
+ background-color: rgb(225, 233, 14);
+  font-family: verdana;
+  background-image : url("WhatsApp Image 2023-06-26 at 15.27.05.jpeg");
+  background-repeat : no-repeat;
+  background-attachment: fixed;
+ 
+  background-position: 40% 20%;
+  background-position-x: center;
+  background-position-Y: cursor;
+
+
+}
+h1 {
+    display: flex;
+    font-size: 2em;
+    color:rgb(45, 234, 16);
+    margin-block-start: .670em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 30%;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    flex-direction: row;
+}
+label {
+  color: hwb(121 0% 0%);
+  cursor: default;
+  display: flex;
+  font-size: 1.5em;
+  margin-inline-start: 30%;
+  margin-inline-end: 0px;
+  font-weight: 2em;
+}
+input{
+  cursor: default;
+  display: flex;
+  font-size: 1em;
+  margin-inline-start: 30%;
+  margin-inline-end: 0px;
+  font-weight: 2em;
+
+}
+button{
+  cursor: default;
+  display: flex;
+  color: #a91111;
+  font-size: 1em;
+  margin-inline-start: 30%;
+  margin-inline-end: 0px;
+  font-weight: 2em;
+
+
+}
+select{
+  cursor: default;
+  display: flex;
+  color: parrot-green;
+  font-size: 1em;
+  margin-inline-start: 30%;
+  margin-inline-end: 0px;
+  font-weight: 2em;
+
+
+
+}

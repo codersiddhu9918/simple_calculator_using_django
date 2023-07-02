@@ -1,0 +1,44 @@
+{% load static %}
+<link rel="stylesheet" href="{% static 'myfirst.css' %}">
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+
+<body>
+    <p>
+       <h1 >now you comes in calculator page</h1>
+        <div class="row">
+            <div class="col-12">
+                <form method ="post">
+                    {%csrf_token%}
+                    <label>value1</label><br>
+                    <input type="text" size="50" name="num1" value="{{num11}} " class="form-control"/>
+                    <br>
+                     <label >select operator</label><br>
+                    <select name="opr" size="1" class="form-control">
+                        <option value="+">+</option>
+                        <option value="-">-</option>
+                        <option value="*">*</option>
+                        <option value="/">/</option>
+                    </select>
+                    <br>
+                     <label >value2</label><br>
+                    <input type="text" size="50" name="num2" value="{{num21}}" class="form-control"/>
+                    <br>
+                    <button type="submit">solve</button>
+                    <br>
+                    <label >output</label>
+                    <br>
+                    <input type="text" size="50" value="{{c}}" />
+
+                </form>
+            </div>
+        </div>
+    </p>
+
+</body>
+</html>
